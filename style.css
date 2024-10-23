@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(135deg, #00bcd4, #ff4081); /* Cyan to Pink Gradient */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+    color: #ff4081; /* Pink color for header */
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #00bcd4; /* Cyan color for links */
+    text-decoration: none;
+}
+
+/* About Section */
+.about {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff4081; /* Pink border for profile picture */
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #f7f7f7; /* Light grey background for sections */
+}
+
+/* Certifications Section */
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap into next line if needed */
+    justify-content: space-around; /* Space out items evenly */
+    margin-top: 20px;
+}
+
+.certification {
+    background: white; /* White background for certification boxes */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    width: calc(30% - 20px); /* Adjust width with margin */
+}
+
+.certification img {
+    width: 80px; /* Set a fixed size for certification images */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Headings and Lists */
+h2 {
+    color: #00bcd4; /* Cyan color for section headings */
+}
+
+h3 {
+    color: #ff4081; /* Pink color for subheadings */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    color: #333; /* Dark color for footer text */
+}
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+
+}
+
+button:hover {
+    background-color: darkblue;
+    text-align: center;
+    position: relative;
+}
